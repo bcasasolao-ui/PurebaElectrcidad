@@ -39,7 +39,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WHITE_BUSH_0685C140F }}
           action: "upload"
-          app_location: "'/energia-frontend-listo (1)/energia-frontend-fixed'"
+          app_location: "/"
           api_location: ""
           output_location: "dist"
           github_id_token: ${{ steps.idtoken.outputs.result }}
